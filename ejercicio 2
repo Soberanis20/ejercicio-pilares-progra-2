@@ -110,9 +110,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Auto miAuto = new Auto("Honda", "Civic", 2020, 15000, 4);
-        Motocicleta miMoto = new Motocicleta("Camaro", "SS 2014", 2022, 5000, "Deportiva");
-        Camion miCamion = new Camion("Audi", "R8", 2019, 100000, 25000);
+        Auto miAuto = new Auto("Toyota", "Corolla", 2000, 27000, 4);
+        Motocicleta miMoto = new Motocicleta("Italika", "ft 140", 2002, 8000, "Casual");
+        Camion miCamion = new Camion("Renault", "Clio", 2019, 500000, 2000);
 
         miAuto.Encender();
         miAuto.Conducir(100);
